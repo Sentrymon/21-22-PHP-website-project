@@ -1,0 +1,68 @@
+//Body style vars
+$background-image: "../media/dev/dev_bg.png";
+$background-color: #112226;
+
+//Navbar style vars
+$barColor: #73363B;
+$buttonBGColor: #F25E6B;
+
+//Hero-contenet style vars
+
+//Main content style vars
+
+
+
+body {
+    margin: 0;
+    color: white;
+    //background-image: url($background-image);
+    background-color: $background-color;
+    
+    -ms-overflow-style: none;
+    scrollbar-width: 0;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+
+$linkColor: white;
+a{color: $linkColor;}
+a:visited{text-decoration: none; color: $linkColor;}
+a:focus{text-decoration: none; color: $linkColor;}
+a:hover{text-decoration: none; color: $linkColor;}
+a:hover a:active{text-decoration: none; color: $linkColor;}
+
+nav {
+    width: 100vw;
+    height: 6vh;
+    background-color: #73363B;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+
+#logo{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: crimson;
+    z-index: 1;
+    margin-left: -25px;
+    opacity: 1;
+    transition: opacity 300ms ease-in;
+}
+
+#buttonsAdjustment{
+    margin-left: 50px;
+}
+
+.button{  
+    width: content;
+    height: content;
+    background-color: $buttonBGColor
+    ;
+    margin: 4px;
+    padding: 3px;
+    justify-content: right;
+}

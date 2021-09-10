@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  color: white;
+  background-color: #112226;
+  -ms-overflow-style: none;
+  scrollbar-width: 0;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:focus {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover a:active {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  width: 100vw;
+  height: 6vh;
+  background-color: #73363B;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+}
+
+#logo {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: crimson;
+  z-index: 1;
+  margin-left: -25px;
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+
+#buttonsAdjustment {
+  margin-left: 50px;
+}
+
+.button {
+  width: content;
+  height: content;
+  background-color: #F25E6B;
+  margin: 4px;
+  padding: 3px;
+  justify-content: right;
+}
+
+/*# sourceMappingURL=style.css.map */
