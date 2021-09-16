@@ -6,7 +6,7 @@
 
 <section class="content">
     <section id="hero-content">
-            
+            <h1>CONTENT GO HERE</h1>
         </section>
     </section>
     

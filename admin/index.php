@@ -1,6 +1,6 @@
 <?php 
-    $title = "Admin";
-    require_once "../includes/header.php" ?>
+    //$title = "Admin";
+    //require_once "../includes/header.php" ?>
 
 <html>
 <body>
@@ -14,7 +14,17 @@
     <input type="submit">
 </form>
 
+<br><br><br>
+
+<form action="./php/post.php" method="post">
+    <input type="hidden" name="author" value="1">
+    Username: <input type="text" name="username"><br>
+    Email: <input type="text" name="email"><br>
+    Password: <input type="text" name="password"><br>
+    <input type="submit">
+</form>
+
 </body>
 </html>
     
-<?php require_once "../includes/footer.php" ?>
+<?php// require_once "../includes/footer.php" ?>

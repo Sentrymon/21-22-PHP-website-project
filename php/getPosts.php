@@ -3,8 +3,7 @@
 function getMainPosts()
 {
     $db = mysqli_connect('localhost', 'root', '', 'website_articles');
-    $query = "SELECT * FROM article";
-    //LIMIT 20 ORDER BY date DESC
+    $query = "SELECT * FROM article ORDER BY date DESC LIMIT 20";
     $result = mysqli_query($db, $query);
     while($row = mysqli_fetch_array($result))
     {

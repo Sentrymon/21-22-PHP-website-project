@@ -39,7 +39,7 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
-    position: relative;
+    //position: relative;
 }
 
 #logo{
@@ -60,9 +60,54 @@ nav {
 .button{  
     width: content;
     height: content;
-    background-color: $buttonBGColor
-    ;
+    background-color: $buttonBGColor;
     margin: 4px;
     padding: 3px;
-    justify-content: right;
 }
+
+#searchbar{
+    position: relative;
+    margin-left: 4vw;
+    padding: 3px;
+    background-color: aqua;
+    height: 300px;
+    width: 3000px;
+}
+
+#hero-content{
+    background-color: #0C3B40;
+    height: 600px;
+    margin: 16px;
+    border-radius: 16px;
+}
+
+#hero-content h1{
+    padding: 2%;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 40px;
+    grid-row-gap: 0px;
+    }
+    
+    footer .column1{ 
+        grid-area: 1 / 1 / 2 / 2; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .column2{
+        grid-area: 1 / 2 / 2 / 3;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+    footer .column3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-area: 1 / 3 / 2 / 4; 
+    }

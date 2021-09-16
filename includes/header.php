@@ -12,11 +12,13 @@
 <body>
 
     <nav class="navbar">
-            <ul>
-                <a id="logo"; href="#"></a>
-                <a class="button"; id="buttonsAdjustment"; href="#">Feed</a>
-                <a class="button"; href="#">Forum</a>
-                <a class="button"; href="#">Article DataBase</a>
-                <a class="button"; href="#">button</a>
+        <ul>
+            <a id="logo"; href="#"></a>
+            <a class="button"; id="buttonsAdjustment"; href="#">Feed</a>
+            <a class="button"; href="#">Forum</a>
+            <a class="button"; href="#">Article DataBase</a>
+            <a class="button"; href="#">button</a>
+            <!--insert searchbar here, place holder below-->
+            <a id="searchbar"; >THIS IS A SEARCHBAR</a>
             </ul>
     </nav>
