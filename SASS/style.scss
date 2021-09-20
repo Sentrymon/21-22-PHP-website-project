@@ -85,6 +85,12 @@ nav {
     padding: 2%;
 }
 
+footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*
 footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -111,3 +117,4 @@ footer {
         align-items: center;
         grid-area: 1 / 3 / 2 / 4; 
     }
+    */
