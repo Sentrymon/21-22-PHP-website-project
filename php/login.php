@@ -1,7 +1,7 @@
 <?php
 
     session_start();
-    $db = mysqli_connect('localhost', 'root', '', 'website_articles');
+    require_once("../server.php");
 
     $username = mysqli_real_escape_string($db, $_POST['username']);
     $password = mysqli_real_escape_string($db,$_POST['password']);
